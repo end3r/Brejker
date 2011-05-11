@@ -5,7 +5,7 @@
 	
 	var table = document.createElement('table'),
 		tbody = document.createElement('tbody'),
-		tr, td, i, j, cells = [];
+		tr, td, i, j, item, cells = [];
 	
 	for (i=0; i<GAME.config.CELLS_VERTICAL; i++){
 		cells[i] = [];
